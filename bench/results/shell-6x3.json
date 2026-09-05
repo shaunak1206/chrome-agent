@@ -1,0 +1,435 @@
+{
+  "date": "2026-09-05T03:44:06.349Z",
+  "engine": "headless-shell",
+  "executablePath": "/Users/shaunkapoor/.chrome-agent/browsers/chrome-headless-shell/mac_arm-152.0.7977.82/chrome-headless-shell-mac-arm64/chrome-headless-shell",
+  "agents": 6,
+  "iterations": 3,
+  "viewport": [
+    1280,
+    800
+  ],
+  "baseline": {
+    "rssMB": 320.3,
+    "footprintMB": 66.9,
+    "processes": 5,
+    "perProcess": [
+      {
+        "pid": 55311,
+        "type": "browser",
+        "rssMB": 84.5,
+        "footprintMB": 17
+      },
+      {
+        "pid": 55316,
+        "type": "renderer",
+        "rssMB": 68.2,
+        "footprintMB": 13
+      },
+      {
+        "pid": 55315,
+        "type": "renderer",
+        "rssMB": 68.3,
+        "footprintMB": 13
+      },
+      {
+        "pid": 55313,
+        "type": "utility",
+        "rssMB": 37.4,
+        "footprintMB": 5.9
+      },
+      {
+        "pid": 55312,
+        "type": "gpu-process",
+        "rssMB": 61.9,
+        "footprintMB": 18
+      }
+    ],
+    "byType": {
+      "browser": {
+        "n": 1,
+        "footprintMB": 17,
+        "rssMB": 84.5
+      },
+      "renderer": {
+        "n": 2,
+        "footprintMB": 26,
+        "rssMB": 136.5
+      },
+      "utility": {
+        "n": 1,
+        "footprintMB": 5.9,
+        "rssMB": 37.4
+      },
+      "gpu-process": {
+        "n": 1,
+        "footprintMB": 18,
+        "rssMB": 61.9
+      }
+    }
+  },
+  "modes": {
+    "tree": {
+      "wallMs": 1958,
+      "actions": 264,
+      "actionsPerSec": 134.9,
+      "latency": {
+        "p50": 7.85,
+        "p95": 110.19,
+        "p99": 146.96,
+        "max": 510.28,
+        "mean": 20.59,
+        "clientP50": 8.27,
+        "clientP95": 134.33
+      },
+      "byCmd": {
+        "session.new": {
+          "n": 6,
+          "p50": 113.89,
+          "p95": 142.97,
+          "max": 142.97,
+          "mean": 81.49
+        },
+        "goto": {
+          "n": 18,
+          "p50": 14.87,
+          "p95": 146.96,
+          "max": 146.96,
+          "mean": 32.84
+        },
+        "tree": {
+          "n": 78,
+          "p50": 5.62,
+          "p95": 11.88,
+          "max": 31.16,
+          "mean": 6.69
+        },
+        "click": {
+          "n": 48,
+          "p50": 23.93,
+          "p95": 142.23,
+          "max": 510.28,
+          "mean": 58.54
+        },
+        "type": {
+          "n": 36,
+          "p50": 12.07,
+          "p95": 55.93,
+          "max": 63,
+          "mean": 15.23
+        },
+        "check": {
+          "n": 12,
+          "p50": 2.65,
+          "p95": 9.47,
+          "max": 9.47,
+          "mean": 4.03
+        },
+        "select": {
+          "n": 12,
+          "p50": 2.2,
+          "p95": 14.85,
+          "max": 14.85,
+          "mean": 4.92
+        },
+        "wait": {
+          "n": 18,
+          "p50": 3.12,
+          "p95": 45.25,
+          "max": 45.25,
+          "mean": 10.49
+        },
+        "eval": {
+          "n": 24,
+          "p50": 1.06,
+          "p95": 4.68,
+          "max": 6.73,
+          "mean": 1.45
+        },
+        "back": {
+          "n": 12,
+          "p50": 10.67,
+          "p95": 22.21,
+          "max": 22.21,
+          "mean": 12.16
+        }
+      },
+      "sessionCreateMs": {
+        "p50": 117.48,
+        "max": 143.76,
+        "all": [
+          1.24,
+          1.29,
+          111.08,
+          117.48,
+          121.95,
+          143.76
+        ]
+      },
+      "observations": 78,
+      "obsTokens": 19372,
+      "obsTokensPerStep": 248.4,
+      "memory": {
+        "baselineFootprintMB": 66.9,
+        "peakFootprintMB": 384.7,
+        "settledFootprintMB": 384.7,
+        "peakRssMB": 1098.3,
+        "pagesOpenAtEnd": 8,
+        "perSessionFootprintMB": 53,
+        "daemonForNAgentsMB": 384.9,
+        "procsPeak": 11,
+        "byType": {
+          "browser": {
+            "n": 1,
+            "footprintMB": 31,
+            "rssMB": 97.4
+          },
+          "renderer": {
+            "n": 8,
+            "footprintMB": 262,
+            "rssMB": 835.8
+          },
+          "utility": {
+            "n": 1,
+            "footprintMB": 7.7,
+            "rssMB": 40.9
+          },
+          "gpu-process": {
+            "n": 1,
+            "footprintMB": 84,
+            "rssMB": 124.2
+          }
+        },
+        "samples": [
+          {
+            "t": 1788579846560,
+            "footprintMB": 66.9,
+            "rssMB": 320.3,
+            "procs": 5
+          },
+          {
+            "t": 1788579847451,
+            "footprintMB": 356.6,
+            "rssMB": 1058,
+            "procs": 11
+          },
+          {
+            "t": 1788579848331,
+            "footprintMB": 369.7,
+            "rssMB": 1084.5,
+            "procs": 11
+          },
+          {
+            "t": 1788579849590,
+            "footprintMB": 384.7,
+            "rssMB": 1098.3,
+            "procs": 11
+          }
+        ]
+      },
+      "workflowsCompleted": 18,
+      "workflowsFailed": 0,
+      "failures": []
+    },
+    "screenshot": {
+      "wallMs": 4668,
+      "actions": 264,
+      "actionsPerSec": 56.6,
+      "latency": {
+        "p50": 19.56,
+        "p95": 102.57,
+        "p99": 175.7,
+        "max": 500.36,
+        "mean": 39.74,
+        "clientP50": 20.64,
+        "clientP95": 485.71
+      },
+      "byCmd": {
+        "session.new": {
+          "n": 6,
+          "p50": 97.94,
+          "p95": 100.25,
+          "max": 100.25,
+          "mean": 65.76
+        },
+        "goto": {
+          "n": 18,
+          "p50": 16.56,
+          "p95": 56.66,
+          "max": 56.66,
+          "mean": 26.09
+        },
+        "screenshot": {
+          "n": 78,
+          "p50": 62.26,
+          "p95": 103.52,
+          "max": 140.29,
+          "mean": 66.19
+        },
+        "click": {
+          "n": 48,
+          "p50": 19.56,
+          "p95": 175.7,
+          "max": 500.36,
+          "mean": 68.38
+        },
+        "type": {
+          "n": 36,
+          "p50": 10.51,
+          "p95": 34.4,
+          "max": 42.35,
+          "mean": 13.32
+        },
+        "check": {
+          "n": 12,
+          "p50": 1.39,
+          "p95": 6.46,
+          "max": 6.46,
+          "mean": 1.91
+        },
+        "select": {
+          "n": 12,
+          "p50": 5.12,
+          "p95": 28.94,
+          "max": 28.94,
+          "mean": 8.17
+        },
+        "wait": {
+          "n": 18,
+          "p50": 2.12,
+          "p95": 71.53,
+          "max": 71.53,
+          "mean": 18.49
+        },
+        "eval": {
+          "n": 24,
+          "p50": 1.62,
+          "p95": 11.06,
+          "max": 22.91,
+          "mean": 2.86
+        },
+        "back": {
+          "n": 12,
+          "p50": 12.74,
+          "p95": 34.06,
+          "max": 34.06,
+          "mean": 15.08
+        }
+      },
+      "sessionCreateMs": {
+        "p50": 98.08,
+        "max": 100.92,
+        "all": [
+          0.43,
+          0.41,
+          97.14,
+          98.08,
+          99.97,
+          100.92
+        ]
+      },
+      "observations": 78,
+      "obsTokens": 106548,
+      "obsTokensPerStep": 1366,
+      "screenshotBytes": 5995211,
+      "memory": {
+        "baselineFootprintMB": 66.9,
+        "peakFootprintMB": 408.9,
+        "settledFootprintMB": 408.9,
+        "peakRssMB": 1132.2,
+        "pagesOpenAtEnd": 8,
+        "perSessionFootprintMB": 57,
+        "daemonForNAgentsMB": 408.9,
+        "procsPeak": 11,
+        "byType": {
+          "browser": {
+            "n": 1,
+            "footprintMB": 32,
+            "rssMB": 106.5
+          },
+          "renderer": {
+            "n": 8,
+            "footprintMB": 260,
+            "rssMB": 833.9
+          },
+          "utility": {
+            "n": 1,
+            "footprintMB": 7.9,
+            "rssMB": 42.7
+          },
+          "gpu-process": {
+            "n": 1,
+            "footprintMB": 109,
+            "rssMB": 149.7
+          }
+        },
+        "samples": [
+          {
+            "t": 1788579850731,
+            "footprintMB": 81.3,
+            "rssMB": 335.9,
+            "procs": 5
+          },
+          {
+            "t": 1788579851602,
+            "footprintMB": 309.9,
+            "rssMB": 1023.6,
+            "procs": 11
+          },
+          {
+            "t": 1788579852477,
+            "footprintMB": 339.9,
+            "rssMB": 1074,
+            "procs": 11
+          },
+          {
+            "t": 1788579853339,
+            "footprintMB": 365.9,
+            "rssMB": 1082.2,
+            "procs": 11
+          },
+          {
+            "t": 1788579854218,
+            "footprintMB": 382.9,
+            "rssMB": 1110.4,
+            "procs": 11
+          },
+          {
+            "t": 1788579855101,
+            "footprintMB": 386.9,
+            "rssMB": 1104.2,
+            "procs": 11
+          },
+          {
+            "t": 1788579856441,
+            "footprintMB": 408.9,
+            "rssMB": 1132.2,
+            "procs": 11
+          }
+        ]
+      },
+      "workflowsCompleted": 18,
+      "workflowsFailed": 0,
+      "failures": []
+    }
+  },
+  "platform": "darwin arm64 node v22.12.0",
+  "comparison": {
+    "tokenSavingsPct": 81.8,
+    "tokensPerStepTree": 248.4,
+    "tokensPerStepScreenshot": 1366,
+    "obsLatencyTreeP50": 5.62,
+    "obsLatencyScreenshotP50": 62.26,
+    "wallTree": 1958,
+    "wallScreenshot": 4668
+  },
+  "separateInstances": {
+    "count": 6,
+    "totalFootprintMB": 377.8,
+    "perBrowserMB": 63,
+    "totalProcesses": 24,
+    "launchMsTotal": 1040,
+    "perBrowserLaunchMs": 173,
+    "daemonForNAgentsMB": 384.9,
+    "daemonProcesses": 11
+  }
+}

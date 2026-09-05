@@ -1,0 +1,503 @@
+{
+  "date": "2026-09-05T03:46:41.725Z",
+  "engine": "chrome",
+  "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "agents": 6,
+  "iterations": 3,
+  "viewport": [
+    1280,
+    800
+  ],
+  "baseline": {
+    "rssMB": 945.5,
+    "footprintMB": 521,
+    "processes": 8,
+    "perProcess": [
+      {
+        "pid": 56174,
+        "type": "browser",
+        "rssMB": 196.5,
+        "footprintMB": 77
+      },
+      {
+        "pid": 56190,
+        "type": "renderer",
+        "rssMB": 96.9,
+        "footprintMB": 27
+      },
+      {
+        "pid": 56189,
+        "type": "webui",
+        "rssMB": 151.3,
+        "footprintMB": 58
+      },
+      {
+        "pid": 56188,
+        "type": "renderer",
+        "rssMB": 93.1,
+        "footprintMB": 27
+      },
+      {
+        "pid": 56187,
+        "type": "webui",
+        "rssMB": 154.2,
+        "footprintMB": 57
+      },
+      {
+        "pid": 56183,
+        "type": "utility",
+        "rssMB": 57.2,
+        "footprintMB": 19
+      },
+      {
+        "pid": 56182,
+        "type": "utility",
+        "rssMB": 77.6,
+        "footprintMB": 24
+      },
+      {
+        "pid": 56181,
+        "type": "gpu-process",
+        "rssMB": 118.7,
+        "footprintMB": 232
+      }
+    ],
+    "byType": {
+      "browser": {
+        "n": 1,
+        "footprintMB": 77,
+        "rssMB": 196.5
+      },
+      "renderer": {
+        "n": 2,
+        "footprintMB": 54,
+        "rssMB": 190
+      },
+      "webui": {
+        "n": 2,
+        "footprintMB": 115,
+        "rssMB": 305.5
+      },
+      "utility": {
+        "n": 2,
+        "footprintMB": 43,
+        "rssMB": 134.8
+      },
+      "gpu-process": {
+        "n": 1,
+        "footprintMB": 232,
+        "rssMB": 118.7
+      }
+    }
+  },
+  "modes": {
+    "tree": {
+      "wallMs": 5880,
+      "actions": 264,
+      "actionsPerSec": 44.9,
+      "latency": {
+        "p50": 16.14,
+        "p95": 117.67,
+        "p99": 1085.61,
+        "max": 1114.46,
+        "mean": 63.96,
+        "clientP50": 16.36,
+        "clientP95": 1009.67
+      },
+      "byCmd": {
+        "session.new": {
+          "n": 6,
+          "p50": 902.12,
+          "p95": 905.12,
+          "max": 905.12,
+          "mean": 602.18
+        },
+        "goto": {
+          "n": 18,
+          "p50": 43.17,
+          "p95": 905.14,
+          "max": 905.14,
+          "mean": 138.56
+        },
+        "tree": {
+          "n": 78,
+          "p50": 9.38,
+          "p95": 28.97,
+          "max": 34.36,
+          "mean": 11.39
+        },
+        "click": {
+          "n": 48,
+          "p50": 55.05,
+          "p95": 1085.61,
+          "max": 1114.46,
+          "mean": 155.87
+        },
+        "type": {
+          "n": 36,
+          "p50": 33.13,
+          "p95": 80.14,
+          "max": 105.29,
+          "mean": 32.76
+        },
+        "check": {
+          "n": 12,
+          "p50": 4.77,
+          "p95": 28.91,
+          "max": 28.91,
+          "mean": 8.55
+        },
+        "select": {
+          "n": 12,
+          "p50": 18.3,
+          "p95": 54.18,
+          "max": 54.18,
+          "mean": 20.07
+        },
+        "wait": {
+          "n": 18,
+          "p50": 12.07,
+          "p95": 49.28,
+          "max": 49.28,
+          "mean": 19.63
+        },
+        "eval": {
+          "n": 24,
+          "p50": 3.13,
+          "p95": 14.29,
+          "max": 14.87,
+          "mean": 4.42
+        },
+        "back": {
+          "n": 12,
+          "p50": 35.47,
+          "p95": 50.76,
+          "max": 50.76,
+          "mean": 35.4
+        }
+      },
+      "sessionCreateMs": {
+        "p50": 1651.82,
+        "max": 1651.88,
+        "all": [
+          0.86,
+          0.87,
+          1651.55,
+          1651.82,
+          1651.87,
+          1651.88
+        ]
+      },
+      "observations": 78,
+      "obsTokens": 19372,
+      "obsTokensPerStep": 248.4,
+      "memory": {
+        "baselineFootprintMB": 521,
+        "peakFootprintMB": 1630,
+        "settledFootprintMB": 1545,
+        "peakRssMB": 2573,
+        "pagesOpenAtEnd": 8,
+        "perSessionFootprintMB": 170.7,
+        "daemonForNAgentsMB": 1545.2,
+        "procsPeak": 20,
+        "byType": {
+          "browser": {
+            "n": 1,
+            "footprintMB": 135,
+            "rssMB": 241.8
+          },
+          "renderer": {
+            "n": 8,
+            "footprintMB": 328,
+            "rssMB": 997.1
+          },
+          "webui": {
+            "n": 8,
+            "footprintMB": 470,
+            "rssMB": 963.6
+          },
+          "utility": {
+            "n": 2,
+            "footprintMB": 46,
+            "rssMB": 137
+          },
+          "gpu-process": {
+            "n": 1,
+            "footprintMB": 566,
+            "rssMB": 124.1
+          }
+        },
+        "samples": [
+          {
+            "t": 1788580002039,
+            "footprintMB": 520,
+            "rssMB": 945.6,
+            "procs": 8
+          },
+          {
+            "t": 1788580003689,
+            "footprintMB": 952,
+            "rssMB": 1995.7,
+            "procs": 19
+          },
+          {
+            "t": 1788580005084,
+            "footprintMB": 1533,
+            "rssMB": 2573,
+            "procs": 20
+          },
+          {
+            "t": 1788580006469,
+            "footprintMB": 1625,
+            "rssMB": 2540.6,
+            "procs": 20
+          },
+          {
+            "t": 1788580007809,
+            "footprintMB": 1630,
+            "rssMB": 2468.4,
+            "procs": 20
+          },
+          {
+            "t": 1788580010151,
+            "footprintMB": 1426,
+            "rssMB": 2424.7,
+            "procs": 20
+          }
+        ]
+      },
+      "workflowsCompleted": 18,
+      "workflowsFailed": 0,
+      "failures": []
+    },
+    "screenshot": {
+      "wallMs": 12389,
+      "actions": 264,
+      "actionsPerSec": 21.3,
+      "latency": {
+        "p50": 50.91,
+        "p95": 571.08,
+        "p99": 1998.06,
+        "max": 2000.88,
+        "mean": 114.84,
+        "clientP50": 53.32,
+        "clientP95": 1230.07
+      },
+      "byCmd": {
+        "session.new": {
+          "n": 6,
+          "p50": 1977.1,
+          "p95": 2000.88,
+          "max": 2000.88,
+          "mean": 1321.83
+        },
+        "goto": {
+          "n": 18,
+          "p50": 58,
+          "p95": 1999.54,
+          "max": 1999.54,
+          "mean": 440.34
+        },
+        "screenshot": {
+          "n": 78,
+          "p50": 64.67,
+          "p95": 108.03,
+          "max": 571.08,
+          "mean": 79.38
+        },
+        "click": {
+          "n": 48,
+          "p50": 54.59,
+          "p95": 153.19,
+          "max": 1047.48,
+          "mean": 102.14
+        },
+        "type": {
+          "n": 36,
+          "p50": 45.51,
+          "p95": 109.05,
+          "max": 133.33,
+          "mean": 50.77
+        },
+        "check": {
+          "n": 12,
+          "p50": 22.88,
+          "p95": 44.65,
+          "max": 44.65,
+          "mean": 18.94
+        },
+        "select": {
+          "n": 12,
+          "p50": 22.09,
+          "p95": 62.8,
+          "max": 62.8,
+          "mean": 21.4
+        },
+        "wait": {
+          "n": 18,
+          "p50": 20.37,
+          "p95": 80.61,
+          "max": 80.61,
+          "mean": 26.03
+        },
+        "eval": {
+          "n": 24,
+          "p50": 1.61,
+          "p95": 19.49,
+          "max": 52.38,
+          "mean": 5.66
+        },
+        "back": {
+          "n": 12,
+          "p50": 37.11,
+          "p95": 66.39,
+          "max": 66.39,
+          "mean": 37.63
+        }
+      },
+      "sessionCreateMs": {
+        "p50": 1978.53,
+        "max": 2001.96,
+        "all": [
+          2,
+          2.07,
+          1971.89,
+          1978.53,
+          1982.9,
+          2001.96
+        ]
+      },
+      "observations": 78,
+      "obsTokens": 106548,
+      "obsTokensPerStep": 1366,
+      "screenshotBytes": 5702836,
+      "memory": {
+        "baselineFootprintMB": 521,
+        "peakFootprintMB": 1598.4,
+        "settledFootprintMB": 1549.4,
+        "peakRssMB": 2387.1,
+        "pagesOpenAtEnd": 8,
+        "perSessionFootprintMB": 171.4,
+        "daemonForNAgentsMB": 1549.4,
+        "procsPeak": 22,
+        "byType": {
+          "browser": {
+            "n": 1,
+            "footprintMB": 139,
+            "rssMB": 196.2
+          },
+          "other": {
+            "n": 2,
+            "footprintMB": 6.4,
+            "rssMB": 23.1
+          },
+          "renderer": {
+            "n": 8,
+            "footprintMB": 330,
+            "rssMB": 822.5
+          },
+          "webui": {
+            "n": 8,
+            "footprintMB": 437,
+            "rssMB": 711.8
+          },
+          "utility": {
+            "n": 2,
+            "footprintMB": 46,
+            "rssMB": 100.7
+          },
+          "gpu-process": {
+            "n": 1,
+            "footprintMB": 591,
+            "rssMB": 97
+          }
+        },
+        "samples": [
+          {
+            "t": 1788580012145,
+            "footprintMB": 473,
+            "rssMB": 796.7,
+            "procs": 8
+          },
+          {
+            "t": 1788580014090,
+            "footprintMB": 698,
+            "rssMB": 1086,
+            "procs": 12
+          },
+          {
+            "t": 1788580015844,
+            "footprintMB": 1363,
+            "rssMB": 2377.4,
+            "procs": 20
+          },
+          {
+            "t": 1788580017304,
+            "footprintMB": 1523,
+            "rssMB": 2387.1,
+            "procs": 20
+          },
+          {
+            "t": 1788580018684,
+            "footprintMB": 1566,
+            "rssMB": 2334,
+            "procs": 20
+          },
+          {
+            "t": 1788580020061,
+            "footprintMB": 1586.4,
+            "rssMB": 2353.3,
+            "procs": 22
+          },
+          {
+            "t": 1788580021375,
+            "footprintMB": 1598.4,
+            "rssMB": 2346.5,
+            "procs": 22
+          },
+          {
+            "t": 1788580022747,
+            "footprintMB": 1574.4,
+            "rssMB": 2008.6,
+            "procs": 22
+          },
+          {
+            "t": 1788580024271,
+            "footprintMB": 1581.4,
+            "rssMB": 1967.3,
+            "procs": 22
+          },
+          {
+            "t": 1788580026639,
+            "footprintMB": 1451.4,
+            "rssMB": 1933.1,
+            "procs": 22
+          }
+        ]
+      },
+      "workflowsCompleted": 18,
+      "workflowsFailed": 0,
+      "failures": []
+    }
+  },
+  "platform": "darwin arm64 node v22.12.0",
+  "comparison": {
+    "tokenSavingsPct": 81.8,
+    "tokensPerStepTree": 248.4,
+    "tokensPerStepScreenshot": 1366,
+    "obsLatencyTreeP50": 9.38,
+    "obsLatencyScreenshotP50": 64.67,
+    "wallTree": 5880,
+    "wallScreenshot": 12389
+  },
+  "separateInstances": {
+    "count": 6,
+    "totalFootprintMB": 1933,
+    "perBrowserMB": 322.2,
+    "totalProcesses": 36,
+    "launchMsTotal": 5301,
+    "perBrowserLaunchMs": 883,
+    "daemonForNAgentsMB": 1545.2,
+    "daemonProcesses": 20
+  }
+}
